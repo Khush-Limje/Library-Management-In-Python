@@ -2,7 +2,7 @@ import sqlite3
 # for clear the screen import this file
 from IPython.display import clear_output
 
-ConnectionString = sqlite3.connect('C:/Users/ADMIN/Documents/LibraryManagementSystem/LibraryManagementSystem.db')
+ConnectionString = sqlite3.connect('Database_Path')
 cursor = ConnectionString.cursor()
 
 
